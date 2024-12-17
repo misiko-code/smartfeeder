@@ -27,6 +27,13 @@ else if ($light == "off") {
 
   </head>
   <body>
+    <article>
+      <header>
+       <h1>Smart trials</h1>
+        <p>From the surface, with this you can control your city lights from Ushago</p>
+        <p>Underneath it's part of big consumer product</p>
+      </header>
+    </article>
     <div class="row" style="margin-top: 20px;">
       <div class="col-md-8 col-md-offset-2">
         <a href="?light=on" class="btn btn-success btn-block btn-lg">Turn On</a>
@@ -36,13 +43,13 @@ else if ($light == "off") {
         <div class="light-status well" style="margin-top: 5px; text-align:center">
           <?php
             if($light=="on") {
-              echo("Turn LED on washa.");
+              echo("Taa imewaka.");
             }
             else if ($light=="off") {
-              echo("Turn LED off zima.");
+              echo("Taa imezima.");
             }
             else {
-              echo ("Do something.Fanya kitu");
+              echo ("Mambo ni mawili, fanya kitu");
             }
           ?>
         </div>
